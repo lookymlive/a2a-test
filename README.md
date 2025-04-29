@@ -129,6 +129,40 @@ Si no pasas ningún argumento, mostrará:
 Hello from a2a-test!
 ```
 
+## Ejemplo práctico: Simulación de colaboración entre agentes
+
+Este ejemplo muestra cómo simular la colaboración entre un Product Manager, un Desarrollador y un Diseñador usando agentes en el proyecto.
+
+### Archivos involucrados
+
+- `src/a2a_test/agent_product_manager.py`: Simula la solicitud de una nueva funcionalidad.
+- `src/a2a_test/agent_developer.py`: Simula la recepción de la solicitud y la petición de diseño.
+- `src/a2a_test/agent_designer.py`: Simula la creación y compartición del diseño en Figma.
+
+### Cómo probarlo
+
+Ejecuta cada agente en la terminal, uno tras otro:
+
+```wsl
+python3 src/a2a_test/agent_product_manager.py
+python3 src/a2a_test/agent_developer.py
+python3 src/a2a_test/agent_designer.py
+```
+
+Verás cómo cada agente cumple su rol y colabora en el flujo de trabajo:
+
+```wsl
+[Product Manager] Solicita al desarrollador: Nueva funcionalidad: Pantalla de login
+[Desarrollador] Recibe la solicitud y pide diseño al diseñador en Figma.
+[Diseñador] Crea el diseño en Figma y lo comparte con el equipo.
+```
+
+### Siguientes pasos sugeridos
+
+- Puedes hacer que los agentes se comuniquen pasando mensajes por archivos, sockets, o una base de datos.
+- Integra APIs reales (por ejemplo, Figma o Slack) para automatizar tareas.
+- Agrega lógica para que los agentes respondan entre sí según el flujo de tu app.
+
 ---
 
 La carpeta principal para tus prácticas y ejemplos es ahora `src/a2a_test`.
