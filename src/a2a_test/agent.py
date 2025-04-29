@@ -1,6 +1,13 @@
-# agent.py
-# Archivo principal para pruebas con el protocolo A2A (Agente a Agente) de Google
-# Puedes comenzar a implementar tu agente aquí.
+import sys
+
+
+def main() -> None:
+    if len(sys.argv) > 1:
+        name = sys.argv[1]
+    else:
+        name = "a2a-test"
+    print(f"Hello from {name}!")
+
 
 if __name__ == "__main__":
-    print("Agente A2A listo para pruebas.")
+    main()
