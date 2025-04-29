@@ -4,7 +4,7 @@
 
 Asegúrate de tener la siguiente estructura:
 
-```
+```wsl
 pyproject.toml
 README.md
 uv.lock
@@ -18,7 +18,7 @@ src/
 
 Para crear archivos desde WSL:
 
-```
+```wsl
 touch src/a2a_test/agent.py
 ```
 
@@ -26,19 +26,19 @@ touch src/a2a_test/agent.py
 
 Si tienes `pyproject.toml`:
 
-```
+```wsl
 uv pip install -e .
 ```
 
 O si tienes `requirements.txt`:
 
-```
+```wsl
 uv pip install -r requirements.txt
 ```
 
 ## 4. Ejecutar el agente
 
-```
+```wsl
 python3 src/a2a_test/agent.py
 ```
 
