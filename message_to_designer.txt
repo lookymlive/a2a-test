@@ -1,0 +1,1 @@
+Por favor desarrolla un diseño en Figma para una pantalla de inicio de sesión de una app móvil con dos roles: usuario y comercio. La autenticación debe ser con Supabase y Google.
