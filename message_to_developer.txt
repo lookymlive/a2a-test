@@ -1,0 +1,1 @@
+Diseño en Figma creado para la pantalla de inicio de sesión con roles usuario y comercio, autenticación con Supabase y Google. Enlace de Figma: https://figma.com/proyecto-ejemplo
