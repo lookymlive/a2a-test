@@ -1,0 +1,1 @@
+Implementación planificada. Se usará Supabase y Google para la autenticación de usuario y comercio. Aviso al Product Manager y al Diseñador que el desarrollo comenzará.
